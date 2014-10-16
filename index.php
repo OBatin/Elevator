@@ -1,9 +1,5 @@
-Elevator
-========
+<?php
 
-Elevator module
-
-```php
 // set config
 $config = [
     'maxWight' => 500 // kg
@@ -32,4 +28,4 @@ $elevatorModule->pressFloorButton(1);
 
 // passanger get out
 $elevatorModule->getOut($passenger_01, $request);
-```
+?>
